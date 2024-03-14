@@ -1,0 +1,23 @@
+{
+  "name": "hillel-qa-js-auto",
+  "version": "1.0.0",
+  "description": "js automation hillel course (summaries and homeworks)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkorobkin/hillel-qa-js-auto.git"
+  },
+  "author": "bkorobkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkorobkin/hillel-qa-js-auto/issues"
+  },
+  "homepage": "https://github.com/bkorobkin/hillel-qa-js-auto#readme",
+  "dependencies": {
+    "expect": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
