@@ -25,7 +25,7 @@
 // <	less than	                (e.g.: x < 8	true)
 // >=	greater than or equal to	(e.g.: x >= 8	false)
 // <=	less than or equal to	    (e.g.: x <= 8	true)
-// &&	and	                        (e.g.: (x < 10 && y > 1) is true),   //false = 0 or null, true = anything else
-// ||	or	                        (e.g.: (x == 5 || y == 5) is false)
+// ||	or                          (e.g.: x=6 y=3 (x == 5 || y == 5) is false) повертає true, якщо хоча б один є true, і false, якщо обидва є false.
+// &&	and	                        (e.g.: (x < 10 && y > 1) is true),   //false = 0 or null, true = anything else, повертає перше ложне значення або останнє значення, якщо всі вони істинні.
 // !	not	                        (e.g.: !(x == y) is true)
 // !!   double not, makes operator Not twice (e.g.: !!true is false and again is true)

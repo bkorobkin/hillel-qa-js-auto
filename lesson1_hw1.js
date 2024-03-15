@@ -39,12 +39,16 @@ console.log(3 ** (9 / 3)) //output: 27 - 9-3=3, 3**3 або 3*3*3 = 27
 console.log(!!'false' == !!'true') //output: true - було складно, але здається зрозумiв. !! це дабл !, мы маємо двi cрiнги якi є тру, дабл !! робить спочатку з них False false а потом опять тру тру, тру==тру=тру
 
 // 0 || '0' && 1
-console.log(0 || '0' && 1) //output: 
+console.log(0 || '0' && 1) //output: 1 - && має прiорiтет та дає результат, потiм выконується || -якщо одниз з значень тру/1 то й результат тру/1
 
 // (+null == false) < 1; 
+console.log((+null == false) < 1) //output: false - тому що першi скобки дають тру, а тру(1) не менше 1
 
 // false && true || true
+console.log(false && true || true) //output: true - спершу "&&" дає тру, || дає результат тру
 
 // false && (false || true);
+console.log(false && (false || true)) //output: false - поперше йдуть дужки = тру, маємо false&&true > дає false
 
 // (+null == false) < 1 ** 5;
+console.log((+null == false) < 1 ** 5) //output - false - дужки дають тру, права частина вiд "<" дає 1 тож тру(1)!<1
