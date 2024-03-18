@@ -39,6 +39,15 @@
 // else if - to specify a new condition to test, if the first condition is false
 // switch - to specify many alternative blocks of code to be executed
 
+// IF/ ELSE IF/ ELSE Syntax
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+
 //SWITCH Syntax
 switch(expression) {
   case x:
