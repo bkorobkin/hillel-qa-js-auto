@@ -44,13 +44,3 @@
 // Створіть гілку у репозиторії.
 // Додати туди ваше домашнє завдання
 // Вислати вашу гілку
-
-
-
-
-// ДЗ 1
-function customIsNaN(value) {
-    return value !== value;
-}
-
-console.log(customIsNaN('Hello'));
