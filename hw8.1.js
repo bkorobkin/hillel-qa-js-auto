@@ -66,6 +66,14 @@ function findValueByKey(companyName, currentCompany = company) {
                     if (foundPartner) {
                         return foundPartner; 
                     }
+                    if (partner.partners) {
+                        for (const subPartner of partner.partners) {
+                            const foundSubPartner = findValueByKey(companyName, subPartner);
+                            if (foundSubPartner) {
+                                return foundSubPartner; 
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -73,7 +81,7 @@ function findValueByKey(companyName, currentCompany = company) {
     return false; 
 }
 
-const companyName = 'Клієнт 1.1'; 
+const companyName = 'Клієнт 1.2.1'; 
 const result = findValueByKey(companyName);
 if (result) {
     console.log('Компанія знайдена: ', result);
