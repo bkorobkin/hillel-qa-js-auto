@@ -1,2 +1,2 @@
 # hillel-qa-js-auto
-AQA Hillel's course 03/2024
+// The 'hillel-qa-js-auto' repository within Hillel's 03/2024 QA Automation course was created to practice and understand the fundamentals and basics of Java Script
